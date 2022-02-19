@@ -1,14 +1,14 @@
 https://smh.pages.dev/*
   X-Robots-Tag: noindex
 
-/*
+/
   Cache-Control: no-cache
   Content-Security-Policy: default-src 'none';
+  Content-Type: text/html
   Permissions-Policy: interest-cohort=()
   Referrer-Policy: no-referrer
   Strict-Transport-Security: max-age=31536000; includeSubDomains
   X-Content-Type-Options: nosniff
-  X-Frame-Options: SAMEORIGIN
   cross-origin-embedder-policy: require-corp;
   cross-origin-opener-policy: same-origin;
   cross-origin-resource-policy:	same-site
