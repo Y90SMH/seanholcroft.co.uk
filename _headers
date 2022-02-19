@@ -3,7 +3,7 @@ https://smh.pages.dev/*
 
 /
   Cache-Control: no-cache
-  Content-Security-Policy: default-src 'none' img-src 'self' script-src 'sha256-T0Bv1c4CH6Pgq5SuNpPUYpH3vGSM5UoEkkCStR9XIAs=' style-src 'self';
+  Content-Security-Policy: default-src 'none'; connect-src cloudflareinsights.com; img-src 'self'; script-src static.cloudflareinsights.com; style-src 'self';
   Content-Type: text/html
   Permissions-Policy: accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=()
   Referrer-Policy: no-referrer
